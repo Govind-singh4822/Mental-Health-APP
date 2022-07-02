@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         EditText usr = (EditText)findViewById(R.id.usr);
         EditText pass = (EditText)findViewById(R.id.pass);
 
-        if(usr.getText().toString().equals("admin") && pass.getText().toString().equals("admin"))
+        if(usr.getText().toString().equals("admin@gmail.com") && pass.getText().toString().equals("admin"))
         {
             Intent intent = new Intent(this,Mainpage.class);
             startActivity(intent);

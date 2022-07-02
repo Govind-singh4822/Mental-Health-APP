@@ -4,6 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".h2">
+    android:background="#BCD5E8"
+    android:textAlignment="center"
+    tools:context=".h1">
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="383dp"
+        android:layout_height="153dp"
+        android:background="#F3DBE3"
+        android:text="\n1. Institute of Human Behaviour and Allied  \t\t\tSciences(Goverment)\n\n2. Vidyasagar Institute of Mental Health   \t\t\tand Neuro and Allied Sciences(private)"
+        android:textColor="#0C0C0C"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="411dp"
+        android:layout_height="54dp"
+        android:background="#CEE3CE"
+        android:text="Delhi"
+        android:textAlignment="center"
+        android:textColor="#354544"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
 </androidx.constraintlayout.widget.ConstraintLayout>

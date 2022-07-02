@@ -4,6 +4,99 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F8EBEF"
     tools:context=".three">
 
+    <Button
+        android:id="@+id/y"
+
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#7584D8"
+        android:onClick="b2"
+        android:text="Depression"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/x"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#7584D8"
+        android:onClick="b1"
+        android:text="Anxiety"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <Button
+        android:id="@+id/x2"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#7584D8"
+        android:onClick="b5"
+        android:text="Autism"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <Button
+        android:id="@+id/x1"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#7584D8"
+        android:onClick="b4"
+        android:text="Obsessive"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <Button
+        android:id="@+id/z"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#7584D8"
+        android:onClick="b3"
+        android:text="Bipolar Disorder"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="382dp"
+        android:layout_height="80dp"
+        android:background="#ECF0F1"
+        android:text="Symtom of various Mental Health"
+        android:textAlignment="viewStart"
+        android:textColor="#100F0F"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
 </androidx.constraintlayout.widget.ConstraintLayout>

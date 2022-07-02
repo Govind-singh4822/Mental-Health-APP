@@ -4,6 +4,99 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".six">
+    android:background="#F8EBEF"
+    tools:context=".three">
 
+    <Button
+        android:id="@+id/y"
+
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#7584D8"
+        android:onClick="a2"
+        android:text="Delhi"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/x"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#7584D8"
+        android:onClick="a1"
+        android:text="Uttrakhannd"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <Button
+        android:id="@+id/x2"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#7584D8"
+        android:onClick="a5"
+        android:text="Uttar Pradesh"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <Button
+        android:id="@+id/x1"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#7584D8"
+        android:onClick="a4"
+        android:text="Madhya Pradesh"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <Button
+        android:id="@+id/z"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#7584D8"
+        android:onClick="a3"
+        android:text="Punjab"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="382dp"
+        android:layout_height="80dp"
+        android:background="#ECF0F1"
+        android:text="List of psychiatric hospitals      in India"
+        android:textAlignment="viewStart"
+        android:textColor="#100F0F"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
 </androidx.constraintlayout.widget.ConstraintLayout>
